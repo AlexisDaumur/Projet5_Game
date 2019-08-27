@@ -16,13 +16,13 @@ for (let i = 0; i < buttons.length; i++) {
       resultat = "Win";
     }
     else {
-      resultat = "Loose";
+      resultat = "Lose";
     }
 
     document.querySelector(".resultats").innerHTML = `
       Joueur : ${joueur} </br>
       Bot : ${bot} </br>
-      ${resultat} !
+      <span style='color:#ADD8E6'>${resultat} !</span>
     `;
 
   });

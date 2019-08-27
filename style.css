@@ -2,13 +2,23 @@
   font-size: 50px;
   text-align: center;
 }
-
-.btn{
-  margin: auto;
-  width: 50%;
-}
 .resultats{
   font-size: 30px;
-  margin-top: 80px;
+  margin-top: 150px;
   text-align: center;
+}
+.btn{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+button{
+  background-color: #ADD8E6;
+  color: black;
+  padding: 16px 80px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  font-size: 20px;
 }
