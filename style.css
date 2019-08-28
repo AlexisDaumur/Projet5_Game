@@ -1,17 +1,21 @@
-#titre{
+.titre{
   font-size: 50px;
   text-align: center;
+  color: white;
 }
 .resultats{
   font-size: 30px;
-  margin-top: 150px;
+  margin-top: -100px;
   text-align: center;
+  color: white;
 }
 .btn{
   position: absolute;
   left: 50%;
   top: 20%;
-  transform: translate(-50%, -50%);
+  transform: translate(-49%, -54%);
+  margin: 0;
+  padding: 0;
 }
 button{
   background-color: #ADD8E6;
@@ -21,4 +25,24 @@ button{
   cursor: pointer;
   opacity: 0.8;
   font-size: 20px;
+}
+.score{
+  font-size: 30px;
+  position: absolute;
+  top: 13%;
+  left: 85%;
+  color: white;
+}
+body{
+  background-color: #34495e;
+}
+.regles{
+  margin-top: 1%;
+  font-size: 40px;
+  color: #ADD8E6;
+}
+p{
+  font-size: 25px;
+  width: 15%;
+  color: white;
 }
